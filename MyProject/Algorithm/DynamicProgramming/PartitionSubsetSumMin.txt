@@ -1,0 +1,28 @@
+https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/
+https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/3jEPRo5PDvx
+https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/
+
+https://www.youtube.com/watch?v=FB0KUhsxXGY
+https://www.youtube.com/watch?v=K20Tx8cdwYY
+https://www.youtube.com/watch?v=-GtpxG6l_Mc
+
+
+https://www.youtube.com/watch?v=s6FhG--P7z0
+
+https://www.youtube.com/watch?v=IsvocB5BJhw
+https://www.youtube.com/watch?v=kyLxTdsT8ws
+
+Partition a set into two subsets such that the difference of subset sums is minimum
+
+Difficulty Level : Hard
+Last Updated : 27 May, 2022
+Given a set of integers, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum. 
+If there is a set S with n elements, then if we assume Subset1 has m elements, Subset2 must have n-m elements and the value of abs(sum(Subset1) – sum(Subset2)) should be minimum.
+
+Example: 
+
+Input:  arr[] = {1, 6, 11, 5} 
+Output: 1
+Explanation:
+Subset1 = {1, 5, 6}, sum of Subset1 = 12 
+Subset2 = {11}, sum of Subset2 = 11    

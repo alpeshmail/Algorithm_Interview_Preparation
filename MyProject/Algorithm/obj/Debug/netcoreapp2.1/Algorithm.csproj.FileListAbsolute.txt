@@ -1,0 +1,17 @@
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.deps.json
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.dll
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.pdb
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.csproj.CoreCompileInputs.cache
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.AssemblyInfoInputs.cache
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.AssemblyInfo.cs
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.dll
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.pdb
+D:\Alpesh\Learning\Algorithem_Test\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.csprojAssemblyReference.cache
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.deps.json
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.dll
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\bin\Debug\netcoreapp2.1\Algorithm.pdb
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.csproj.CoreCompileInputs.cache
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.AssemblyInfoInputs.cache
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.AssemblyInfo.cs
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.dll
+D:\Alpesh\Learning\Algorithem_Test\Algorithm_Interview_Preparation\Algorithm\Algorithm\obj\Debug\netcoreapp2.1\Algorithm.pdb
