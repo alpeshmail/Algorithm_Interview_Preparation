@@ -39,7 +39,20 @@ https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sort
 	https://www.geeksforgeeks.org/find-index-first-1-infinite-sorted-array-0s-1s/
 	14) Minimum Difference Element in a Sorted Array
 	https://www.callicoder.com/minimum-difference-element-in-sorted-array/
-
+	
+Note: Binary search on unsorted array with specific condition
+	15)Find a peak element
+	https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/	
+	16) Find maximum element in Bitonic Array -- Same as Peak element
+	https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/
+	17) Find an element in Bitonic array
+	https://www.geeksforgeeks.org/find-element-bitonic-array/
+	18) Search in a row wise and column wise sorted matrix
+	https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+	https://www.educative.io/answers/how-to-search-in-a-row-wise-and-column-wise-sorted-matrix
+	19) Allocate Minimum Number Of Pages
+	https://www.geeksforgeeks.org/allocate-minimum-number-pages/
+	
 
 *** Tree or Graph (Basic only to understand Tree structure)
 
@@ -59,6 +72,16 @@ if (Recursive is parent of dynamic programming).
 	5) Equal Sum K Partiotn  -- Hard, can do later.
 	6) Edit Distance
 	7) Longest Common Subsequence
+
+*** Heap Programming
+
+https://www.youtube.com/watch?v=hW8PrQrvMNc&list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9
+
+https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
+
+-- Time Complexity 
+https://www.bigocheatsheet.com/
+
 
 
 	

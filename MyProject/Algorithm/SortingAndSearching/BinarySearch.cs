@@ -26,7 +26,11 @@ namespace Algorithm.SortingAndSearching
         public  int BinarySearchAsc(int[] nums,int n, int value)
         {
             int high = n - 1;
-            int low = 0;
+            return BinarySearchAsc(nums, value, 0, high);
+        }
+
+        public int BinarySearchAsc(int[] nums, int keyValue, int low, int high)
+        {
             int mid;
             int result = -1;
 
@@ -34,12 +38,12 @@ namespace Algorithm.SortingAndSearching
             {
                 //mid = (low + high) / 2;
                 mid = low + (high - low) / 2;  // this is good for large int number, it will not overflow it
-                if (nums[mid] == value)
+                if (nums[mid] == keyValue)
                 {
                     result = mid;
                     break;
                 }
-                else if (nums[mid] > value)
+                else if (nums[mid] > keyValue)
                 {
                     high = mid - 1;
                 }
@@ -48,7 +52,6 @@ namespace Algorithm.SortingAndSearching
                     low = mid + 1;
                 }
             }
-
             return result;
         }
 
@@ -96,18 +99,21 @@ namespace Algorithm.SortingAndSearching
         }
         public int BinarySearchDecending(int[] nums,int n, int value)
         {
-            int mid;
             int high = n - 1;
-            int low = 0;
+            return BinarySearchDecending(nums, value,0,high);
+        }
 
-            while(low <= high)
+        public  int BinarySearchDecending(int[] nums, int keyValue, int low, int high)
+        {
+            int mid;
+            while (low <= high)
             {
                 mid = low + (high - low) / 2;
-                if (nums[mid] == value)
+                if (nums[mid] == keyValue)
                 {
                     return mid;
                 }
-                else if (nums[mid] > value )
+                else if (nums[mid] > keyValue)
                 {
                     low = mid + 1;
                 }
@@ -115,7 +121,6 @@ namespace Algorithm.SortingAndSearching
                 {
                     high = mid - 1;
                 }
-
             }
 
             return -1;
