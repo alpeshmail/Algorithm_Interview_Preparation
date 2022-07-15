@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alpesh\\Learning\\Algorithem_Test\\Algorithem\\Algorithm_Interview_Preparation\\Algorithm\\Algorithm\\Algorithm.csproj": {}
+    "D:\\Alpesh\\Learning\\Alpesh_Algorithem\\Algorithm_Interview_Preparation\\MyProject\\Algorithm\\Algorithm.csproj": {}
   },
   "projects": {
-    "D:\\Alpesh\\Learning\\Algorithem_Test\\Algorithem\\Algorithm_Interview_Preparation\\Algorithm\\Algorithm\\Algorithm.csproj": {
+    "D:\\Alpesh\\Learning\\Alpesh_Algorithem\\Algorithm_Interview_Preparation\\MyProject\\Algorithm\\Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alpesh\\Learning\\Algorithem_Test\\Algorithem\\Algorithm_Interview_Preparation\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectUniqueName": "D:\\Alpesh\\Learning\\Alpesh_Algorithem\\Algorithm_Interview_Preparation\\MyProject\\Algorithm\\Algorithm.csproj",
         "projectName": "Algorithm",
-        "projectPath": "D:\\Alpesh\\Learning\\Algorithem_Test\\Algorithem\\Algorithm_Interview_Preparation\\Algorithm\\Algorithm\\Algorithm.csproj",
+        "projectPath": "D:\\Alpesh\\Learning\\Alpesh_Algorithem\\Algorithm_Interview_Preparation\\MyProject\\Algorithm\\Algorithm.csproj",
         "packagesPath": "C:\\Users\\Home-dk\\.nuget\\packages\\",
-        "outputPath": "D:\\Alpesh\\Learning\\Algorithem_Test\\Algorithem\\Algorithm_Interview_Preparation\\Algorithm\\Algorithm\\obj\\",
+        "outputPath": "D:\\Alpesh\\Learning\\Alpesh_Algorithem\\Algorithm_Interview_Preparation\\MyProject\\Algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -39,24 +40,30 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            },
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
