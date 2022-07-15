@@ -1,0 +1,55 @@
+https://www.geeksforgeeks.org/partition-problem-dp-18/
+https://www.youtube.com/watch?v=K20Tx8cdwYY
+https://www.youtube.com/watch?v=3N47yKRDed0
+https://www.youtube.com/watch?v=IsvocB5BJhw
+https://www.youtube.com/watch?v=s6FhG--P7z0
+https://www.youtube.com/watch?v=kyLxTdsT8ws
+
+https://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go
+
+// Aditya Verma - dynamic programming
+//Also called Sum of subsets
+
+
+Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same. 
+
+Examples: 
+
+arr[] = {1, 5, 11, 5}
+Output: true 
+The array can be partitioned as {1, 5, 5} and {11}
+
+arr[] = {1, 5, 3}
+Output: false 
+The array cannot be partitioned into equal sum sets.
+
+
+
+sum of subsets
+Input
+array = { 3, 1, 5, 9, 12}
+Weight = 14
+Output 
+TRUE
+
+First row and first column are base condition
+
+
+	0		1		2		3		4		5 -- Array Index	
+
+	0		3		1		5		9		12 -- Array Value  
+0	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE   -- Base Condition
+1	FALSE	FALSE	TRUE	TRUE	TRUE	TRUE
+2	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE
+3	FALSE	TRUE	TRUE	TRUE	TRUE	TRUE
+4	FALSE	FALSE	TRUE	TRUE	TRUE	TRUE
+5	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE
+6	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE
+7	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE
+8	FALSE	FALSE	FALSE	TRUE	TRUE	TRUE
+9	FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+10	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE
+11	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE
+12	FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+13	FALSE	FALSE	FALSE	FALSE	TRUE	TRUE
+14	FALSE	FALSE	FALSE	FALSE	TRUE	TRUE

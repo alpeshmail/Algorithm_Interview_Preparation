@@ -1,0 +1,91 @@
+*** Sorting
+1) Bubble Sort Algorithm
+
+https://www.geeksforgeeks.org/bubble-sort/
+
+How Bubble Sort Works?
+Consider an array arr[] = {5, 1, 4, 2, 8}
+
+First Pass: 
+
+Bubble sort starts with very first two elements, comparing them to check which one is greater.
+( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1. 
+( 1 5 4 2 8 ) –>  ( 1 4 5 2 8 ), Swap since 5 > 4 
+( 1 4 5 2 8 ) –>  ( 1 4 2 5 8 ), Swap since 5 > 2 
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.
+
+Second Pass: 
+
+Now, during second iteration it should look like this:
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ) 
+( 1 4 2 5 8 ) –> ( 1 2 4 5 8 ), Swap since 4 > 2 
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+( 1 2 4 5 8 ) –>  ( 1 2 4 5 8 ) 
+
+
+2)  Insertion Sort
+
+https://www.geeksforgeeks.org/insertion-sort/
+
+Consider an example: arr[]: {12, 11, 13, 5, 6}
+
+First Pass:
+
+Initially, the first two elements of the array are compared in insertion sort.
+   12   	   11   	   13   	   5   	   6   
+Here, 12 is greater than 11 hence they are not in the ascending order and 12 is not at its correct position. Thus, swap 11 and 12.
+So, for now 11 is stored in a sorted sub-array.
+   11   	   12   	   13   	   5   	   6   
+Second Pass:
+
+ Now, move to the next two elements and compare them
+   11   	   12   	   13   	   5   	   6   
+Here, 13 is greater than 12, thus both elements seems to be in ascending order, hence, no swapping will occur. 12 also stored in a sorted sub-array along with 11
+Third Pass:
+
+Now, two elements are present in the sorted sub-array which are 11 and 12
+Moving forward to the next two elements which are 13 and 5
+   11   	   12   	   13   	   5   	   6   
+Both 5 and 13 are not present at their correct place so swap them
+   11   	   12   	   5   	   13   	   6   
+After swapping, elements 12 and 5 are not sorted, thus swap again
+   11   	   5   	   12   	   13   	   6   
+Here, again 11 and 5 are not sorted, hence swap again
+   5   	   11   	   12   	   13   	   6   
+here, it is at its correct position
+
+3) Merge Sort
+
+https://www.geeksforgeeks.org/merge-sort/
+
+The Merge Sort algorithm is a sorting algorithm that is considered as an example of the divide and conquer strategy. 
+So, in this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner. 
+We can think of it as a recursive algorithm that continuously splits the array in half until it cannot be further divided. 
+This means that if the array becomes empty or has only one element left, the dividing will stop, 
+i.e. it is the base case to stop the recursion. If the array has multiple elements, 
+we split the array into halves and recursively invoke the merge sort on each of the halves. 
+Finally, when both the halves are sorted, the merge operation is applied. 
+Merge operation is the process of taking two smaller sorted arrays and combining them to eventually make a larger one.
+
+4) Quick Sort
+Note -- Quick sort is not a fastest algorithem.
+https://www.geeksforgeeks.org/quick-sort/
+
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. 
+There are many different versions of quickSort that pick pivot in different ways. 
+
+Always pick the first element as a pivot.
+Always pick the last element as a pivot (implemented below)
+Pick a random element as a pivot.
+Pick median as the pivot.
+
+5) HeapSort
+
+https://www.geeksforgeeks.org/heap-sort/
+
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
+
+What is Binary Heap? 
+Let us first define a Complete Binary Tree. A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible (Source Wikipedia)
+A Binary Heap is a Complete Binary Tree where items are stored in a special order such that the value in a parent node is greater(or smaller) than the values in its two children nodes. The former is called max heap and the latter is called min-heap. The heap can be represented by a binary tree or array.
+

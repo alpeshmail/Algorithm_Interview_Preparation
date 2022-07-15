@@ -1,0 +1,6 @@
+1) Subset sum problem  or Sum of Subsets Or Partition of subset
+2)Equal sum Partition
+3)count of subset sum
+4) Minimum subset sum off
+5) Target sum (Leet code)
+6) # of subset & given difference
