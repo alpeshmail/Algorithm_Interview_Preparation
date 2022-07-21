@@ -1,0 +1,96 @@
+httpswww.youtube.comwatchv=HqPJF2L5h9U
+
+Note -- Heap question if K + Smallest/Largest
+
+1) K’th Smallest/Largest Element in Unsorted Array | Set 1 -- KthSmallestElement
+smalles use max heap, Largest use minheap, everything else should be same
+
+smallest/Closest
+
+https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+2)k largest(or smallest) elements in an array
+https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1
+
+3) Sort a K Sorted Array | Sort Nearly Sorted Array
+https://www.geeksforgeeks.org/nearly-sorted-algorithm/
+https://www.geeksforgeeks.org/sort-a-nearly-sorted-array-using-stl/
+
+4) K Closest Numbers -- Nearly sorted array, or KSorted array, -- KClosestNumbers.cs
+https://www.geeksforgeeks.org/find-k-closest-numbers-in-an-unsorted-array/
+https://www.geeksforgeeks.org/find-k-closest-elements-given-value/ -- required to not include elements
+https://leetcode.com/problems/find-k-closest-elements/ -- Sorted array then use Binary search.
+
+Find k closest numbers in an unsorted array
+
+Given an unsorted array and two numbers x and k, find k closest values to x.
+Examples: 
+ 
+
+Input : arr[] = {10, 2, 14, 4, 7, 6}, x = 5, k = 3 
+Output : 4 6 7
+Three closest values of x are 4, 6 and 7.
+
+Input : arr[] = {-10, -50, 20, 17, 80}, x = 20, k = 2
+Output : 17, 20
+
+5) Top K Frequent Numbers -- KFrequence.cs
+
+https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/
+
+Find k numbers with most occurrences in the given array
+
+Difficulty Level : Medium
+Last Updated : 13 Jul, 2022
+Given an array of n numbers and a positive integer k. The problem is to find k numbers with most occurrences, i.e., 
+the top k numbers having the maximum frequency. If two numbers have the same frequency then the larger number should be given preference. 
+The numbers should be displayed in decreasing order of their frequencies. It is assumed that the array consists of k numbers with most occurrences.
+
+Examples: 
+
+Input: 
+arr[] = {3, 1, 4, 4, 5, 2, 6, 1}, 
+k = 2
+Output: 4 1
+Explanation:
+Frequency of 4 = 2
+Frequency of 1 = 2
+These two have the maximum frequency and
+4 is larger than 1.
+
+Input : 
+arr[] = {7, 10, 11, 5, 2, 5, 5, 7, 11, 8, 9},
+k = 4
+Output: 5 11 7 10
+
+6) Sort elements by frequency | Set 1 --- KFrequence.cs
+	https://www.geeksforgeeks.org/sort-elements-by-frequency/	
+
+Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first. 
+
+Input:  arr[] = {2, 5, 2, 8, 5, 6, 8, 8}
+Output: arr[] = {8, 8, 8, 2, 2, 5, 5, 6}
+
+Input: arr[] = {2, 5, 2, 6, -1, 9999999, 5, 8, 8, 8}
+Output: arr[] = {8, 8, 8, 2, 2, 5, 5, 6, -1, 9999999}
+
+7)  K Closest Points To Origin
+https://www.geeksforgeeks.org/find-k-closest-points-to-the-origin/
+https://www.geeksforgeeks.org/find-the-k-closest-points-to-origin-using-priority-queue/
+
+Given a list of points on the 2-D plane and an integer K. The task is to find K closest points to the origin and print them.
+Note: The distance between two points on a plane is the Euclidean distance.
+
+Examples: 
+
+Input : point = [[3, 3], [5, -1], [-2, 4]], K = 2
+Output : [[3, 3], [-2, 4]]
+Square of Distance of origin from this point is 
+(3, 3) = 18
+(5, -1) = 26
+(-2, 4) = 20
+So the closest two points are [3, 3], [-2, 4].
+
+Distance Formula = x2 + y2
