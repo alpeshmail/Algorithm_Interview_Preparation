@@ -89,6 +89,10 @@ https://www.geeksforgeeks.org/quick-sort/
 	https://www.geeksforgeeks.org/find-the-k-closest-points-to-origin-using-priority-queue/
 	8) Connect Ropes to Minimise the Cost
 	https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
+	https://www.geeksforgeeks.org/optimal-file-merge-patterns/
+	https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1
+	https://www.chegg.com/homework-help/questions-and-answers/amazon-media-encoder-highly-scalable-easy-use-cost-effective-way-developers-businesses-con-q85994314
+	
 
 *** Tree or Graph (Basic only to understand Tree structure)
 

@@ -1,0 +1,33 @@
+Note- It is same question that we solved -- 8) Connect Ropes to Minimise the Cost -- MinimiseCostConnectRopes.cs
+
+Amazon's Media Encoder (Interview question)
+Updated: Aug 15, 2021
+Amazon Media Encoder is a highly scalable, easy to use and a cost-effective way for developers and businesses to convert media files from their source format into versions that will playback on devices like smartphones. Whenever a media file needs to be processed by the encoder, it partitions the media file into N subfiles. Each subfile is processed independently. During this process each subfile gets compressed. These compressed subfiles are then merged by the encoder.
+
+
+The encoder can merge only two files at a time. The time required to merge the two files is equal to the sum of their sizes. The size of this merged file is also equal to the sum of their sizes. This process is repeated until the N sub files are merged into a single output file.
+Write an algorithm to output the minimum possible time to merge the given N subfiles into a single file.
+
+
+Input:
+The input to the function/method consists of two arguments:
+numOfSubFiles, an integer representing the number of the subfiles;
+Files, a list of integers representing the size of the compressed subfiles.
+
+
+Output:
+Return an integer representing the minimum time required to merge all the subfiles
+
+
+Example:
+Input:
+numOfSubfiles = 4
+Files = [4,8,6,12]
+Output:
+58
+Explanation:
+The optimal way to merge the subfiles is as follows:
+Step 1: Merge the files of size 4 and 6 (time required is 10). Size of subfiles after merging: [8, 10, 12]
+Step 2: Merge the files of size 8 and 10 (time required is 18). Size of subfiles after merging: [18, 12]
+Step3: Merge the files of size 18 and 12 (time required is 30)
+Total time required to merge the file is 10 + 18 + 30 = 58.
