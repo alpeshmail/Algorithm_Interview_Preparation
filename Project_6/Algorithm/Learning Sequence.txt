@@ -40,7 +40,7 @@ Note- Should not be use doubly link list/Circular link link, try to solve it usi
 	
 *** Sorting And Searching 
 	** Searching
-	Note -- (If any question is asked base on sorted array Binay serach must be use, do not use linear search). 
+	Note -- (If any question is asked base on sorted array then Binay serach must be use, do not use linear search). 
 
 	1) Binary Search
 	https://www.geeksforgeeks.org/binary-search/
