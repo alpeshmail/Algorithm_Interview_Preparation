@@ -6,22 +6,53 @@ Note- Should not be use doubly link list/Circular link link, try to solve it usi
 	3) AddTwoNumbers
 	4) MergeLinkedList
 
+*** Stack
+	1) NGR | Nearest Greater to right | Next Largest Element
+	https://www.geeksforgeeks.org/next-greater-element/
+	2) NGL | Nearest Greater to left
+	https://www.callicoder.com/nearest-greater-to-left/
+	https://www.procoding.org/nearest-greater-to-left/
+	https://leetcode.com/problems/online-stock-span/discuss/735286/similar-to-nearest-greater-to-left-using-stack
+	3) NSL | NEAREST SMALLER TO LEFT
+	https://www.geeksforgeeks.org/find-the-nearest-smaller-numbers-on-left-side-in-an-array/
+	https://www.interviewbit.com/problems/nearest-smaller-element/
+	https://www.procoding.org/nearest-smaller-to-left/
+	4)Nearest Smaller to Right
+	https://www.geeksforgeeks.org/next-smaller-element/
+	https://www.procoding.org/nearest-smaller-to-right/
+	5)  Stock Span Problem
+	https://www.geeksforgeeks.org/the-stock-span-problem/
+	https://leetcode.com/problems/online-stock-span/
+	https://www.interviewbit.com/blog/stock-span-problem/
+	6) Maximum Area Histogram | MAH
+	https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+	https://leetcode.com/problems/largest-rectangle-in-histogram/
+	https://www.interviewbit.com/blog/largest-rectangle-in-histogram/
+	7)Max Area Rectangle in binary matrix
+	https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
+	
+	8)Rain Water Trapping
+	https://www.geeksforgeeks.org/trapping-rain-water/
+	9) Minimum Element in Stack with Extra space 0(n)
+		https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+	10)Minimum Element in Stack in O(1) Space
+	https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+	
 *** Sorting And Searching 
-
 	** Searching
-Note -- (If any question is asked base on sorted array Binay serach must be use, do not use linear search). 
+	Note -- (If any question is asked base on sorted array Binay serach must be use, do not use linear search). 
 
 	1) Binary Search
-https://www.geeksforgeeks.org/binary-search/
+	https://www.geeksforgeeks.org/binary-search/
 	2) Binary Search on Reverse Sorted Array
-https://www.geeksforgeeks.org/search-an-element-in-a-reverse-sorted-array/
+	https://www.geeksforgeeks.org/search-an-element-in-a-reverse-sorted-array/
 	3) Order Not Know search 
-https://www.geeksforgeeks.org/order-agnostic-binary-search/
+	https://www.geeksforgeeks.org/order-agnostic-binary-search/
 	4) First and Last occurrence of an Element
-https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/
-https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+	https://www.geeksforgeeks.org/find-first-and-last-positions-of-an-element-in-a-sorted-array/
+	https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 	5) Count number of occurrences (or frequency) in a sorted array -- BinarySearchExt.cs
-https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/
+	https://www.geeksforgeeks.org/count-number-of-occurrences-or-frequency-in-a-sorted-array/
 	6) Find the Rotation Count in Rotated Sorted array
 	https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/
 	7) Find an Element in a Rotated Sorted Array
@@ -55,17 +86,23 @@ Note: Binary search on unsorted array with specific condition
 	19) Allocate Minimum Number Of Pages
 	https://www.geeksforgeeks.org/allocate-minimum-number-pages/
 
+	20)Interpolation Search -- Improvement over Binary search, Different formula then mid.
+	https://www.geeksforgeeks.org/interpolation-search/
+
 	*** Sorting	
-1) Bubble Sort Algorithm
-https://www.geeksforgeeks.org/bubble-sort/
-2)  Insertion Sort
-https://www.geeksforgeeks.org/insertion-sort/
-3) Merge Sort
-https://www.geeksforgeeks.org/merge-sort/
-4) Quick Sort
-https://www.geeksforgeeks.org/quick-sort/
+	1) Bubble Sort Algorithm
+	https://www.geeksforgeeks.org/bubble-sort/
+	2)  Insertion Sort
+	https://www.geeksforgeeks.org/insertion-sort/
+	3) Merge Sort
+	https://www.geeksforgeeks.org/merge-sort/
+	4) Quick Sort
+	https://www.geeksforgeeks.org/quick-sort/
 
 	*** Heap
+
+	https://www.youtube.com/watch?v=hW8PrQrvMNc&list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9
+	https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
 
 	Note -- Heap question if K + Smallest/Largest
 
@@ -113,14 +150,12 @@ if (Recursive is parent of dynamic programming).
 	6) Edit Distance
 	7) Longest Common Subsequence
 
-*** Heap Programming
+	*** Heap Programming
 
-https://www.youtube.com/watch?v=hW8PrQrvMNc&list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9
 
-https://www.youtube.com/c/AdityaVermaTheProgrammingLord/playlists
 
--- Time Complexity 
-https://www.bigocheatsheet.com/
+	-- Time Complexity 
+	https://www.bigocheatsheet.com/
 
 
 

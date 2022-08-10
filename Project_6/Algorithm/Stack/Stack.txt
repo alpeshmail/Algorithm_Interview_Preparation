@@ -1,0 +1,71 @@
+*** Stack
+1) NGR | Nearest Greater to right | Next Largest Element
+https://www.geeksforgeeks.org/next-greater-element/
+2) NGL | Nearest Greater to left
+https://www.callicoder.com/nearest-greater-to-left/
+https://www.procoding.org/nearest-greater-to-left/
+https://leetcode.com/problems/online-stock-span/discuss/735286/similar-to-nearest-greater-to-left-using-stack
+3) NSL | NEAREST SMALLER TO LEFT
+https://www.geeksforgeeks.org/find-the-nearest-smaller-numbers-on-left-side-in-an-array/
+4)Nearest Smaller to Right
+https://www.geeksforgeeks.org/next-smaller-element/
+https://www.procoding.org/nearest-smaller-to-right/
+
+5)  Stock Span Problem
+https://www.geeksforgeeks.org/the-stock-span-problem/
+https://leetcode.com/problems/online-stock-span/
+https://www.interviewbit.com/blog/stock-span-problem/
+6) Maximum Area Histogram | MAH
+https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+https://leetcode.com/problems/largest-rectangle-in-histogram/
+https://www.interviewbit.com/blog/largest-rectangle-in-histogram/
+
+Find the largest rectangular area possible in a given histogram where the largest rectangle can 
+be made of a number of contiguous bars. For simplicity, assume that all bars have same width and the 
+width is 1 unit. 
+For example, consider the following histogram with 7 bars of heights {6, 2, 5, 4, 5, 1, 6}. 
+The largest possible rectangle possible is 12 (see the below figure, the max area rectangle is highlighted in red)
+
+7)Max Area Rectangle in binary matrix
+
+https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
+
+Maximum size rectangle binary sub-matrix with all 1s
+
+Difficulty Level : Hard
+Last Updated : 30 Jun, 2022
+Given a binary matrix, find the maximum size rectangle binary-sub-matrix with all 1’s. 
+
+Example: 
+
+Input:
+0 1 1 0
+1 1 1 1
+1 1 1 1
+1 1 0 0
+Output :
+8
+Explanation : 
+The largest rectangle with only 1's is from 
+(1, 0) to (2, 3) which is
+1 1 1 1
+1 1 1 1 
+
+8)Rain Water Trapping
+https://www.geeksforgeeks.org/trapping-rain-water/
+Given an array of N non-negative integers arr[] representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+
+Examples:  
+Input: arr[]   = {3, 0, 2, 0, 4}
+Output: 7
+Explanation: Structure is like below.
+We can trap “3 units” of water between 3 and 2,
+“1 unit” on top of bar 2 and “3 units” between 2 and 4.
+
+9) Minimum Element in Stack with Extra space 0(n)
+Note- 9) and 10) are same question but Complexity are different. 
+In 9) we take two stack and identify  min element and In 10) we use only stack to get min element.
+two stack is increase space Complexity 0(n) to O(1)
+	https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+10)Minimum Element in Stack in O(1) Space
+https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
